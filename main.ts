@@ -5,7 +5,7 @@ import { join } from "node:path";
 // boring, specific, and almost believable — the office VPN is down again,
 // IT blames a firewall update, and nobody can prove otherwise in a hurry.
 const line =
-  "Sorry, the office VPN keeps dropping and IT said the firewall update broke remote logins again, waiting on a fix.";
+  "Sorry, my router fried itself overnight downloading the launch update, no wifi till the technician comes tomorrow.";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 if (line.length < 1 || line.length > 140) {
